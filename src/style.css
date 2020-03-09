@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #3b3b3b;
+    color: white;
+}
+
+.block{
+    padding: 20px;
+    border: 1px solid white;
+}
+.btn{
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 5px;
+    border:  none;
+    font-size: 20px;
+    background: #a8dcaf;
+}
+.btn:hover{
+    background: #6be169;
+}
+input {
+    padding: 3px;
+    font-size: 20px;
+}

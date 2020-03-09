@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Title</title>
+
+</head>
+<body>
+
+<div class="block">
+   <form name="create">
+      <input type="text" name="email" placeholder="email">
+      <input type="text" name="userName" placeholder=" your name">
+      <input type="text" name="pass" placeholder="password">
+      <button class="btn">create user</button>
+   </form>
+</div>
+
+<div class="block">
+   <form name="login">
+      <input type="text" name="email" placeholder="email">
+      <input type="text" name="pass" placeholder="password">
+      <button class="btn">log in</button>
+   </form>
+</div>
+
+<div class="log" id="log"></div>
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCxcVEaBg-iw3nB6y-iTRVfEIW5bqyfDQM",
+        authDomain: "test-b8c90.firebaseapp.com",
+        databaseURL: "https://test-b8c90.firebaseio.com",
+        projectId: "test-b8c90",
+        storageBucket: "test-b8c90.appspot.com",
+        messagingSenderId: "1090169091671",
+        appId: "1:1090169091671:web:31408e7127fe602d2bd512"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+</body>
+</html>
